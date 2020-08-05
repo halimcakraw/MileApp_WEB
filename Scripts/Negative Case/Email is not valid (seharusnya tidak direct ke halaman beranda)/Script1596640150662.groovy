@@ -32,6 +32,9 @@ WebUI.setText(findTestObject('Text_Btn/Phone_txt'), '812345678')
 WebUI.setText(findTestObject('Text_Btn/Organization_txt'), 'Script Automation Halim')
 WebUI.click(findTestObject('Text_Btn/RequestDemo_btn'))
 
+def Verify_2 = WebUI.getText(findTestObject('Verify/VerifNotif_Error'))
+WebUI.verifyMatch(Verify_2, 'The email field must be a valid email.', true)
+
 WebUI.delay(5)
 
 WebUI.closeBrowser()
