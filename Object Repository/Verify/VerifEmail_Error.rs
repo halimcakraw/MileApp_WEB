@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifEmail_Error</name>
+   <tag></tag>
+   <elementGuidId>81cea7d6-1bff-4b43-81c3-290850e06076</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div/div[1]/div[2]/div/div/div[1]/div/div/form/div[2]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div/div[1]/div[2]/div/div/div[1]/div/div/form/div[2]/div/span</value>
+   </webElementProperties>
+</WebElementEntity>

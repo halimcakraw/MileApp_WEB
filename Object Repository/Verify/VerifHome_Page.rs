@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VerifHome_Page</name>
+   <tag></tag>
+   <elementGuidId>966ee0e0-9145-46c6-a1cc-ecaf748503a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/div/div[1]/div[1]/div/div[2]/div/div/div/header/div/div[2]/div[1]/a[1]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/div/div[1]/div[1]/div/div[2]/div/div/div/header/div/div[2]/div[1]/a[1]/p</value>
+   </webElementProperties>
+</WebElementEntity>
