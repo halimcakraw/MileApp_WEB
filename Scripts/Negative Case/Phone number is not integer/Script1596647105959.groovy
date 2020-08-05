@@ -25,12 +25,15 @@ WebUI.verifyMatch(Verify_Demo, 'Fill your detail information', true)
 
 WebUI.setText(findTestObject('Text_Btn/Name_txt'), 'halim')
 WebUI.setText(findTestObject('Text_Btn/Email_txt'), 'halim@mileapp.com')
-WebUI.setText(findTestObject('Text_Btn/Phone_txt'), '89910801')
+WebUI.setText(findTestObject('Text_Btn/Phone_txt'), '089991080asd')
+def Verify_1 = WebUI.getText(findTestObject('Verify/VerifPhone_Error'))
+WebUI.verifyMatch(Verify_1, 'The phone field may only contain numeric characters.', true)
+
 WebUI.setText(findTestObject('Text_Btn/Organization_txt'), 'Script Automation Halim')
 WebUI.click(findTestObject('Text_Btn/RequestDemo_btn'))
 
 def Verify_2 = WebUI.getText(findTestObject('Verify/VerifNotif_Error'))
-WebUI.verifyMatch(Verify_2, 'Phone number cannot less than 8 digits', true)
+WebUI.verifyMatch(Verify_2, 'The phone field may only contain numeric characters', true)
 
 WebUI.delay(5)
 
